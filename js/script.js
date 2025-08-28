@@ -13,7 +13,7 @@ const createTable = (number, multiplicatiorNumber) =>{
         const result = number * i
        
         const template = `<div class="row">
-        <div class="operation>${number} x${i} = </div>
+        <div class="operation>${number} x ${i} = </div>
         <div class="result">${result}</div
         </div>`
         const parser = new DOMParser()
